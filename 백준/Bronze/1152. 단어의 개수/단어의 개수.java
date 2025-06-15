@@ -8,7 +8,7 @@ public class Main {
         int Num = 0;
 
         for(int i = 0; i < S.length; i++) {
-            if(!S[i].isEmpty()) {
+            if(!S[i].equals("")) {
                 Num++;
             }
         }
